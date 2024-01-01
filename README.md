@@ -277,6 +277,18 @@ NULL	2022	NULL	5
 Chemical Reactions	2023	NULL	1
 NULL	2023	NULL	1
 
+GROUP BY Clause:
+
+The GROUP BY clause is used to group rows that have the same values in specified columns into summary rows.
+It is often accompanied by aggregate functions (such as COUNT, SUM, AVG, etc.) to perform calculations on each group of rows.
+
+ROLLUP Clause:
+
+The ROLLUP extension of GROUP BY generates subtotals and grand totals for specified columns, creating a hierarchy of grouping levels.
+
+CUBE Clause:
+
+The CUBE extension of GROUP BY is similar to ROLLUP but provides subtotals and grand totals for all possible combinations of the specified columns.
 -------------------------------------------------------------------------------
 Task 4: Result Reports with Charts or Graphs
 Export the result of one of your queries to a CSV file.
